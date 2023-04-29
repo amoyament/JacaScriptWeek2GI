@@ -21,9 +21,12 @@ let min = function (num1, num2) {
 
 // Log the function to make sure it works
 console.log(min(num1, num2));
+// Added document.write to show in browser, but then has to add 'br' to make each document.write show on a new line, instead of it running all together
+document.write(min(num1, num2), '<br>');
 
 //This function can also be used with other numbers
 console.log(min(93, 55));
+document.write(min(93, 55), '<br>');
 
 //This can also be written as an arrow function with ternary operators
 let minA = (numA, numB) => {
@@ -35,6 +38,7 @@ let minA = (numA, numB) => {
 };
 
 console.log(minA(43, 66));
+document.write(minA(43, 66), '<br>');
 
 //If you want to have more than two numbers, you can write the numbers in an array
 //First we need to store the numbers in an array
@@ -53,3 +57,4 @@ let minB = function (nums) {
 };
 
 console.log(minB(nums));
+document.write(minB(nums), '<br>');
