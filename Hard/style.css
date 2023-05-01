@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  background-color: rgb(147, 163, 185);
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#month {
+  width: 10%;
+}
+
+#result {
+  font-size: 200%;
+  font-weight: bold;
+}
