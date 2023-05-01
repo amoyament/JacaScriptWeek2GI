@@ -4,7 +4,7 @@
 let num1 = 75;
 let num2 = 5;
 
-//Create a funtion named min that takes two arguments (num1 and num 2)
+//Create a funtion named min that takes two peramaters (num1 and num 2)
 let min = function (num1, num2) {
   //Create an if/else statement to comare the two numbers
   //If num one is less than num two, it is returned as the minimum
