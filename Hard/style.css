@@ -4,12 +4,3 @@ body {
   color: whitesmoke;
   font-family: 'Courier New', Courier, monospace;
 }
-
-#month {
-  width: 10%;
-}
-
-#result {
-  font-size: 200%;
-  font-weight: bold;
-}
